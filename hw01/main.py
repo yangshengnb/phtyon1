@@ -1,4 +1,5 @@
 for i in range(1, 10):
-  print
-  for j in range(1, i+1):
-    print "%d*%d=%d" % (i, j, i*j),
+    for j in range(1, i+1):
+      formula=f'{i:1}x{j:1}={i*j:<2}}'
+      print (formula,end=' ')
+    print()
